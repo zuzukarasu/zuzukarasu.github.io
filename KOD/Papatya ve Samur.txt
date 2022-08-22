@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>Papatya ve Samur</title>
+    <meta name="author" content="Papatyavesamur">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+    <div class="container">
+        <div class="logo"><img src="2.jpeg"></div>
+        <div class="search">
+        <input class="isearch" placeholder="Aný Ara...">
+        </div>
+    </div>
+    </header>
+    <div class="ayir">
+        <div class="resim">
+        <div class="text">
+        <h1>Papatya<span> ve </span>Samur</h1>
+        <h4></h4>
+        </div>
+    </div>
+    </div>
+
+    <div class="menu">
+        <div class="container">
+            <ul class="menu-ul">
+            <a href="https://google.com"><li class="menu-li">Anasayfa</li></a>
+            <a href="#"><li class="menu-li">Hakkýnda</li></a>
+            </ul>
+        </div>
+        <div class="container">
+        <div class="left">
+        <div class="leftp">
+            sdvsvsfvsfvsf
+        </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="right">
+            <div class="rightp">
+                sdvsvsfvsfvsf
+            </div>
+            </div>
+            </div>
+        <footer>
+            <div class="container">
+                <div class="column-25">
+                    <span class="line">
+                    <h2 class="title">Bu baþlýk</h2>
+                    </span>
+                    <span class="info">123</span>
+                    </div>
+                 <div class="column-25">
+                    <span class="line">
+                    <h2 class="title">Bu baþlýk</h2>
+                    </span>
+                    <span class="info">123</span>
+                    </div>
+                <div class="column-25">
+                     <span class="line">
+                    <h2 class="title">Bu baþlýk</h2>
+                    </span>
+                    <span class="info">123</span>
+                    </div>
+                <div class="column-25">
+                    <span class="line">
+                    <h2 class="title">Bu baþlýk</h2>
+                    </span>
+                    <span class="info">123</span>
+                    </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+body{
+    font-size: 13px;
+    font-family: 'Silkscreen', sans-serif;
+    margin: 0;
+    background-color: rgb(241, 205, 0);
+}
+header{
+    width: 100%;
+    position: fixed;
+    background: #222;
+    z-index: 2;
+    border-top: 20px solid rgb(241, 205, 0);
+}
+.ayir{
+    height: 420px;
+}
+.text{
+    text-align: center;
+    color:rgb(241, 205, 0)
+    font-weight: bold;
+    padding-top: 170px;
+}
+h1{
+    font-size: 50px;
+    text-shadow: 1px 2px 6px #000;
+    border-top: 7px solid rgb(0, 0, 0);
+    border-bottom: 7px solid rgb(0, 0, 0);
+    background-color: rgb(241, 205, 0);
+}
+.resim{
+    background: url('1.jpeg');
+    height: 400px;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    display: inline-block;
+    float: left;
+    border: 0;
+    border-top: 0;
+}
+.logo img{
+    height: 100px;
+    margin-top: 0px;
+}
+.search{
+    display: inline-block;
+    float: right;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 0px solid #fff;
+    border-top: 3px solid rgb(0, 0, 0);
+}
+.menu{
+    border-bottom: 1px solid rgb(241, 205, 0);
+}
+.menu-ul{
+    margin: 0;
+    padding: 0;
+}
+.menu-ul a {
+    color: rgb(0, 0, 0);
+}
+.menu-ul a:hover{
+    color: #000;
+}
+.menu-li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 7px;
+    border-bottom: 3px solid rgb(241, 205, 0);
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 1px 2px 6px #000;
+}
+.menu-li:hover{
+    border-bottom: 3px solid #000;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+    border-top: 3px solid #000
+}
+.isearch{
+    padding: 40px 20px 40px;
+    border: 0;
+    background: transparent;
+    border-bottom: 3px solid rgb(241, 205, 0);
+    outline: 0;
+    width: 100px;
+    color:rgb(241, 205, 0);
+    font-size: 13px;
+    font-family: 'Silkscreen', sans-serif;
+    margin-top: 6px;
+    transition-duration: 0.3s;
+    transition-property: width, color;
+}
+.isearch:focus{
+    width: 300px;
+    border-bottom: 3px solid rgb(241, 205, 0);
+}
